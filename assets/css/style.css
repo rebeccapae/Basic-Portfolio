@@ -13,7 +13,10 @@ body {
     
 }
 
-.banner {
+/* Navigation Bar */
+.banner{
+    width: auto;
+    height: 80px;
     background-color: #ffffff;
     border-color: #cccccc;
     border-width: 2px;
@@ -23,18 +26,12 @@ body {
     width: auto;
 }
 
-nav{
-    width: auto;
-    height: 80px;
-
-}
-
-#name {
+h1 {
     background-color: #4aaaa5;
     width: 200px;
     height: 80px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     position: relative; 
     line-height: 75px;
@@ -43,26 +40,74 @@ nav{
 
 }
 
-nav ul{   
- 
+#nav_items {
+    float: right;
+}
+
+ul{   
     margin: 0;
-    padding: 0;
+    padding: 0px;
     color: #777777;
     width: 300px;
-    height: 60px;
+    height: 80px;
     float: right;
     position: relative;
-    right: 10%;
+    text-align: center;
   
 }
 
-nav li {
+ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 5px;
-    font-size: 18px;
+    font-size: 15px;
     border-right: 1px solid #bbb;
-    padding: 10px;
-    line-height: 50px;
-   
+    padding: 5px;
+    position: relative;
+    top: 30%;
+}
+
+/* About Me Text Box */
+
+.text_box {
+    padding: 0px;
+    margin: 80px 120px;
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    padding: 20px;
+    line-height: 1.5;
+    overflow: auto;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 20px;
+    border-bottom: 2px solid #777777;
+}
+
+p {
+    padding: 15px;
+}
+
+#profile_pic {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+    padding-left: 0px;
+    float: left;
+}
+
+/* Footer */
+footer {
+    background-color: #666666;
+    color: white;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    padding-top:25px;
+    font-size: 12px;
+    bottom: 0;
+    position: fixed;
 }
