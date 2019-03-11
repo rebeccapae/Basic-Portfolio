@@ -109,5 +109,139 @@ footer {
     padding-top:25px;
     font-size: 12px;
     bottom: 0;
+    border-top: 3px solid #4aaaa5;
     position: fixed;
+}
+
+/* Portfolio Images */
+.portfolio_images {
+    padding: 15px;
+    position: relative;
+    width: 500px;
+    margin: 0px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+#sunset {
+    width: 230px;
+    margin: 0;
+    float: left;
+}
+
+#textblock1 {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    top: 180px;
+    left: 30px;
+}
+
+#pink {
+    width: 230px;
+    margin: 0;
+    float: left;
+}
+
+#textblock2 {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    top: 180px;
+    left: 260px;
+}
+
+#purple {
+    width: 230px;
+    margin: 0;
+    float: left;
+    height: 230px;
+}
+
+#textblock3 {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    top: 420px;
+    left: 30px;
+}
+
+#raindrop {
+    width: 230px;
+    margin: 0;
+    float: left;
+    height: 230px;
+}
+
+#textblock4 {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    top: 420px;
+    left: 260px;
+}
+
+#sf {
+    width: 230px;
+    margin: 0;
+    float: left;
+    height: 230px;
+}
+
+#textblock5 {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    top: 650px;
+    left: 30px;
+}
+
+
+img {
+    padding: 15px;
+    width: 200px;
+    position: relative;
+}
+
+/* Contact Page */
+
+form {
+    padding: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 20px;;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    padding: 8px;
+    width: 80px;
+    color: white;
+}
+
+#message {
+    height: 150px;
+    
+}
+
+::placeholder {
+    padding: 5px;
+    font-size: 10px;
 }
