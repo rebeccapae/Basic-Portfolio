@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-    background-color: #4aaaa5;
+    background-color: #ff5382;
     width: 200px;
     height: 80px;
     text-align: center;
@@ -109,8 +109,8 @@ footer {
     padding-top:25px;
     font-size: 12px;
     bottom: 0;
-    border-top: 3px solid #4aaaa5;
-    position: fixed;
+    border-top: 3px solid #ff5382;
+    position: relative;
 }
 
 /* Portfolio Images */
@@ -139,7 +139,7 @@ h3 {
     width: 200px;
     height: 35px;
     color: white;
-    background-color: #4aaaa5;
+    background-color: #ff5382;
     top: 180px;
     left: 30px;
 }
@@ -155,7 +155,7 @@ h3 {
     width: 200px;
     height: 35px;
     color: white;
-    background-color: #4aaaa5;
+    background-color: #ff5382;
     top: 180px;
     left: 260px;
 }
@@ -172,7 +172,7 @@ h3 {
     width: 200px;
     height: 35px;
     color: white;
-    background-color: #4aaaa5;
+    background-color: #ff5382;
     top: 420px;
     left: 30px;
 }
@@ -189,7 +189,7 @@ h3 {
     width: 200px;
     height: 35px;
     color: white;
-    background-color: #4aaaa5;
+    background-color: #ff5382;
     top: 420px;
     left: 260px;
 }
@@ -206,7 +206,7 @@ h3 {
     width: 200px;
     height: 35px;
     color: white;
-    background-color: #4aaaa5;
+    background-color: #ff5382;
     top: 650px;
     left: 30px;
 }
